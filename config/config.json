@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "kostas",
+    "database": "development",
+    "host": "localhost",
+    "dialect": "postgres"
+    
+  },
+  "test": {
+    "username": "postgres",
+    "password": "kostas",
+    "database": "test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "wyvggmetpwkmky",
+    "password": "2057746e66cb6f2d0f6c06f3b1e24976d2a3159ceb9dea4721335c27e9ca52fb",
+    "database": "d40sjfaeosjdh1",
+    "host": "ec2-54-170-163-224.eu-west-1.compute.amazonaws.com",
+    "dialect": "postgres"
+  }
+}

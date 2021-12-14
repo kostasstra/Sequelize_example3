@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^7.0.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  },
+  "devDependencies": {
+    "command": "^0.0.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.44.0"
+  },
+  "name": "sequelize_example3",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {    
+    "start": "node app.js",
+    "server": "nodemon app.js",
+    "serve": "browser-sync start --no-open --server --files \"dist/css/*.css, dist/js/*.js, **/*.html, !node_modules/**/*.html\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
